@@ -1,0 +1,592 @@
+<?xml version='1.0' encoding='utf-8'?>
+<roblox version="4">
+  <Item class="Model" referent="RBX101">
+    <Properties>
+      <string name="Name">AizenCharacter</string>
+      <Ref name="PrimaryPart">RBX113</Ref>
+    </Properties>
+    <Item class="Humanoid" referent="RBX104">
+      <Properties>
+        <string name="Name">Humanoid</string>
+        <float name="MaxHealth">250</float>
+        <float name="Health">250</float>
+        <float name="WalkSpeed">18</float>
+        <float name="JumpPower">55</float>
+        <bool name="BreakJointsOnDeath">false</bool>
+        <token name="RigType">0</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX113">
+      <Properties>
+        <string name="Name">HumanoidRootPart</string>
+        <bool name="Anchored">false</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CanQuery">false</bool>
+        <CoordinateFrame name="CFrame">1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4, 0</CoordinateFrame>
+        <Vector3 name="Size">2, 2, 1</Vector3>
+        <Color3 name="Color3">
+          <R>0.0</R>
+          <G>0.0</G>
+          <B>0.0</B>
+        </Color3>
+        <float name="Transparency">0</float>
+        <bool name="CastShadow">true</bool>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX128">
+      <Properties>
+        <string name="Name">Torso</string>
+        <bool name="Anchored">false</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CanQuery">false</bool>
+        <CoordinateFrame name="CFrame">1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4, 0</CoordinateFrame>
+        <Vector3 name="Size">2, 2, 1</Vector3>
+        <Color3 name="Color3">
+          <R>0.0</R>
+          <G>0.0</G>
+          <B>0.0</B>
+        </Color3>
+        <float name="Transparency">0</float>
+        <bool name="CastShadow">true</bool>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX143">
+      <Properties>
+        <string name="Name">Head</string>
+        <bool name="Anchored">false</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CanQuery">false</bool>
+        <CoordinateFrame name="CFrame">1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5.5, 0</CoordinateFrame>
+        <Vector3 name="Size">2, 1, 1</Vector3>
+        <Color3 name="Color3">
+          <R>0.8627450980392157</R>
+          <G>0.8627450980392157</G>
+          <B>0.8627450980392157</B>
+        </Color3>
+        <float name="Transparency">0</float>
+        <bool name="CastShadow">true</bool>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX158">
+      <Properties>
+        <string name="Name">Left Arm</string>
+        <bool name="Anchored">false</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CanQuery">false</bool>
+        <CoordinateFrame name="CFrame">1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 4, 0</CoordinateFrame>
+        <Vector3 name="Size">1, 2, 1</Vector3>
+        <Color3 name="Color3">
+          <R>0.8627450980392157</R>
+          <G>0.8627450980392157</G>
+          <B>0.8627450980392157</B>
+        </Color3>
+        <float name="Transparency">0</float>
+        <bool name="CastShadow">true</bool>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX173">
+      <Properties>
+        <string name="Name">Right Arm</string>
+        <bool name="Anchored">false</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CanQuery">false</bool>
+        <CoordinateFrame name="CFrame">1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5, 4, 0</CoordinateFrame>
+        <Vector3 name="Size">1, 2, 1</Vector3>
+        <Color3 name="Color3">
+          <R>0.8627450980392157</R>
+          <G>0.8627450980392157</G>
+          <B>0.8627450980392157</B>
+        </Color3>
+        <float name="Transparency">0</float>
+        <bool name="CastShadow">true</bool>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX188">
+      <Properties>
+        <string name="Name">Left Leg</string>
+        <bool name="Anchored">false</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CanQuery">false</bool>
+        <CoordinateFrame name="CFrame">1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, 2, 0</CoordinateFrame>
+        <Vector3 name="Size">1, 2, 1</Vector3>
+        <Color3 name="Color3">
+          <R>0.13333333333333333</R>
+          <G>0.13333333333333333</G>
+          <B>0.13333333333333333</B>
+        </Color3>
+        <float name="Transparency">0</float>
+        <bool name="CastShadow">true</bool>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX203">
+      <Properties>
+        <string name="Name">Right Leg</string>
+        <bool name="Anchored">false</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CanQuery">false</bool>
+        <CoordinateFrame name="CFrame">1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5, 2, 0</CoordinateFrame>
+        <Vector3 name="Size">1, 2, 1</Vector3>
+        <Color3 name="Color3">
+          <R>0.13333333333333333</R>
+          <G>0.13333333333333333</G>
+          <B>0.13333333333333333</B>
+        </Color3>
+        <float name="Transparency">0</float>
+        <bool name="CastShadow">true</bool>
+      </Properties>
+    </Item>
+    <Item class="Motor6D" referent="RBX218">
+      <Properties>
+        <string name="Name">RootJoint</string>
+        <Ref name="Part0">RBX113</Ref>
+        <Ref name="Part1">RBX128</Ref>
+        <CoordinateFrame name="C0">1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0</CoordinateFrame>
+        <CoordinateFrame name="C1">1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0</CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Motor6D" referent="RBX225">
+      <Properties>
+        <string name="Name">Neck</string>
+        <Ref name="Part0">RBX128</Ref>
+        <Ref name="Part1">RBX143</Ref>
+        <CoordinateFrame name="C0">1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0</CoordinateFrame>
+        <CoordinateFrame name="C1">1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.5, 0</CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Motor6D" referent="RBX232">
+      <Properties>
+        <string name="Name">Left Shoulder</string>
+        <Ref name="Part0">RBX128</Ref>
+        <Ref name="Part1">RBX158</Ref>
+        <CoordinateFrame name="C0">1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0.5, 0</CoordinateFrame>
+        <CoordinateFrame name="C1">1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5, 0.5, 0</CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Motor6D" referent="RBX239">
+      <Properties>
+        <string name="Name">Right Shoulder</string>
+        <Ref name="Part0">RBX128</Ref>
+        <Ref name="Part1">RBX173</Ref>
+        <CoordinateFrame name="C0">1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0.5, 0</CoordinateFrame>
+        <CoordinateFrame name="C1">1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, 0.5, 0</CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Motor6D" referent="RBX246">
+      <Properties>
+        <string name="Name">Left Hip</string>
+        <Ref name="Part0">RBX128</Ref>
+        <Ref name="Part1">RBX188</Ref>
+        <CoordinateFrame name="C0">1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, -1, 0</CoordinateFrame>
+        <CoordinateFrame name="C1">1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0</CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Motor6D" referent="RBX253">
+      <Properties>
+        <string name="Name">Right Hip</string>
+        <Ref name="Part0">RBX128</Ref>
+        <Ref name="Part1">RBX203</Ref>
+        <CoordinateFrame name="C0">1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5, -1, 0</CoordinateFrame>
+        <CoordinateFrame name="C1">1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0</CoordinateFrame>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX260">
+      <Properties>
+        <string name="Name">WhiteCaptainHaori</string>
+        <bool name="Anchored">false</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CanQuery">false</bool>
+        <CoordinateFrame name="CFrame">1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4, 0.03</CoordinateFrame>
+        <Vector3 name="Size">2.18, 2.05, 1.12</Vector3>
+        <Color3 name="Color3">
+          <R>1.0</R>
+          <G>1.0</G>
+          <B>1.0</B>
+        </Color3>
+        <float name="Transparency">0</float>
+        <bool name="CastShadow">true</bool>
+      </Properties>
+      <Item class="Weld" referent="RBX275">
+        <Properties>
+          <string name="Name">RobeWeld</string>
+          <Ref name="Part0">RBX128</Ref>
+          <Ref name="Part1">RBX260</Ref>
+          <CoordinateFrame name="C0">1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0</CoordinateFrame>
+          <CoordinateFrame name="C1">1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0</CoordinateFrame>
+        </Properties>
+      </Item>
+    </Item>
+    <Item class="Part" referent="RBX282">
+      <Properties>
+        <string name="Name">AizenHair</string>
+        <bool name="Anchored">false</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CanQuery">false</bool>
+        <CoordinateFrame name="CFrame">1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 6.15, 0</CoordinateFrame>
+        <Vector3 name="Size">2.05, 0.55, 1.15</Vector3>
+        <Color3 name="Color3">
+          <R>0.5176470588235295</R>
+          <G>0.5058823529411764</G>
+          <B>0.7607843137254902</B>
+        </Color3>
+        <float name="Transparency">0</float>
+        <bool name="CastShadow">true</bool>
+      </Properties>
+      <Item class="Weld" referent="RBX297">
+        <Properties>
+          <string name="Name">HairWeld</string>
+          <Ref name="Part0">RBX143</Ref>
+          <Ref name="Part1">RBX282</Ref>
+          <CoordinateFrame name="C0">1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.45, 0</CoordinateFrame>
+          <CoordinateFrame name="C1">1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0</CoordinateFrame>
+        </Properties>
+      </Item>
+    </Item>
+    <Item class="Part" referent="RBX304">
+      <Properties>
+        <string name="Name">HairFringe</string>
+        <bool name="Anchored">false</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CanQuery">false</bool>
+        <CoordinateFrame name="CFrame">1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5.98, -0.48</CoordinateFrame>
+        <Vector3 name="Size">1.5, 0.3, 0.45</Vector3>
+        <Color3 name="Color3">
+          <R>0.5176470588235295</R>
+          <G>0.5058823529411764</G>
+          <B>0.7607843137254902</B>
+        </Color3>
+        <float name="Transparency">0</float>
+        <bool name="CastShadow">true</bool>
+      </Properties>
+      <Item class="Weld" referent="RBX319">
+        <Properties>
+          <string name="Name">HairFringeWeld</string>
+          <Ref name="Part0">RBX143</Ref>
+          <Ref name="Part1">RBX304</Ref>
+          <CoordinateFrame name="C0">1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.4800000000000004, -0.48</CoordinateFrame>
+          <CoordinateFrame name="C1">1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0</CoordinateFrame>
+        </Properties>
+      </Item>
+    </Item>
+    <Item class="Part" referent="RBX326">
+      <Properties>
+        <string name="Name">HairLeftLock</string>
+        <bool name="Anchored">false</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CanQuery">false</bool>
+        <CoordinateFrame name="CFrame">1, 0, 0, 0, 1, 0, 0, 0, 1, -0.78, 5.55, -0.15</CoordinateFrame>
+        <Vector3 name="Size">0.35, 0.8, 0.4</Vector3>
+        <Color3 name="Color3">
+          <R>0.5176470588235295</R>
+          <G>0.5058823529411764</G>
+          <B>0.7607843137254902</B>
+        </Color3>
+        <float name="Transparency">0</float>
+        <bool name="CastShadow">true</bool>
+      </Properties>
+      <Item class="Weld" referent="RBX341">
+        <Properties>
+          <string name="Name">HairLeftLockWeld</string>
+          <Ref name="Part0">RBX143</Ref>
+          <Ref name="Part1">RBX326</Ref>
+          <CoordinateFrame name="C0">1, 0, 0, 0, 1, 0, 0, 0, 1, -0.78, 0.04999999999999982, -0.15</CoordinateFrame>
+          <CoordinateFrame name="C1">1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0</CoordinateFrame>
+        </Properties>
+      </Item>
+    </Item>
+    <Item class="Part" referent="RBX348">
+      <Properties>
+        <string name="Name">HairRightLock</string>
+        <bool name="Anchored">false</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CanQuery">false</bool>
+        <CoordinateFrame name="CFrame">1, 0, 0, 0, 1, 0, 0, 0, 1, 0.78, 5.55, -0.15</CoordinateFrame>
+        <Vector3 name="Size">0.35, 0.8, 0.4</Vector3>
+        <Color3 name="Color3">
+          <R>0.5176470588235295</R>
+          <G>0.5058823529411764</G>
+          <B>0.7607843137254902</B>
+        </Color3>
+        <float name="Transparency">0</float>
+        <bool name="CastShadow">true</bool>
+      </Properties>
+      <Item class="Weld" referent="RBX363">
+        <Properties>
+          <string name="Name">HairRightLockWeld</string>
+          <Ref name="Part0">RBX143</Ref>
+          <Ref name="Part1">RBX348</Ref>
+          <CoordinateFrame name="C0">1, 0, 0, 0, 1, 0, 0, 0, 1, 0.78, 0.04999999999999982, -0.15</CoordinateFrame>
+          <CoordinateFrame name="C1">1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0</CoordinateFrame>
+        </Properties>
+      </Item>
+    </Item>
+    <Item class="Part" referent="RBX370">
+      <Properties>
+        <string name="Name">LeftEye</string>
+        <bool name="Anchored">false</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CanQuery">false</bool>
+        <CoordinateFrame name="CFrame">1, 0, 0, 0, 1, 0, 0, 0, 1, -0.35, 5.58, -0.505</CoordinateFrame>
+        <Vector3 name="Size">0.18, 0.07, 0.025</Vector3>
+        <Color3 name="Color3">
+          <R>0.0</R>
+          <G>0.0</G>
+          <B>0.0</B>
+        </Color3>
+        <float name="Transparency">0</float>
+        <bool name="CastShadow">true</bool>
+      </Properties>
+      <Item class="Weld" referent="RBX385">
+        <Properties>
+          <string name="Name">LeftEyeWeld</string>
+          <Ref name="Part0">RBX143</Ref>
+          <Ref name="Part1">RBX370</Ref>
+          <CoordinateFrame name="C0">1, 0, 0, 0, 1, 0, 0, 0, 1, -0.35, 0.08, -0.5</CoordinateFrame>
+          <CoordinateFrame name="C1">1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0</CoordinateFrame>
+        </Properties>
+      </Item>
+    </Item>
+    <Item class="Part" referent="RBX392">
+      <Properties>
+        <string name="Name">RightEye</string>
+        <bool name="Anchored">false</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CanQuery">false</bool>
+        <CoordinateFrame name="CFrame">1, 0, 0, 0, 1, 0, 0, 0, 1, 0.35, 5.58, -0.505</CoordinateFrame>
+        <Vector3 name="Size">0.18, 0.07, 0.025</Vector3>
+        <Color3 name="Color3">
+          <R>0.0</R>
+          <G>0.0</G>
+          <B>0.0</B>
+        </Color3>
+        <float name="Transparency">0</float>
+        <bool name="CastShadow">true</bool>
+      </Properties>
+      <Item class="Weld" referent="RBX407">
+        <Properties>
+          <string name="Name">RightEyeWeld</string>
+          <Ref name="Part0">RBX143</Ref>
+          <Ref name="Part1">RBX392</Ref>
+          <CoordinateFrame name="C0">1, 0, 0, 0, 1, 0, 0, 0, 1, 0.35, 0.08, -0.5</CoordinateFrame>
+          <CoordinateFrame name="C1">1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0</CoordinateFrame>
+        </Properties>
+      </Item>
+    </Item>
+    <Item class="Part" referent="RBX414">
+      <Properties>
+        <string name="Name">PurpleSash</string>
+        <bool name="Anchored">false</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CanQuery">false</bool>
+        <CoordinateFrame name="CFrame">1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.35, 0</CoordinateFrame>
+        <Vector3 name="Size">2.15, 0.28, 1.1</Vector3>
+        <Color3 name="Color3">
+          <R>0.5019607843137255</R>
+          <G>0.0</G>
+          <B>0.5019607843137255</B>
+        </Color3>
+        <float name="Transparency">0</float>
+        <bool name="CastShadow">true</bool>
+      </Properties>
+      <Item class="Weld" referent="RBX429">
+        <Properties>
+          <string name="Name">SashWeld</string>
+          <Ref name="Part0">RBX128</Ref>
+          <Ref name="Part1">RBX414</Ref>
+          <CoordinateFrame name="C0">1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.55, 0</CoordinateFrame>
+          <CoordinateFrame name="C1">1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0</CoordinateFrame>
+        </Properties>
+      </Item>
+    </Item>
+    <Item class="Part" referent="RBX436">
+      <Properties>
+        <string name="Name">KyokaScabbard</string>
+        <bool name="Anchored">false</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CanQuery">false</bool>
+        <CoordinateFrame name="CFrame">1, 0, 0, 0, 1, 0, 0, 0, 1, -0.75, 4.3, 0.45</CoordinateFrame>
+        <Vector3 name="Size">0.18, 2.7, 0.18</Vector3>
+        <Color3 name="Color3">
+          <R>0.0</R>
+          <G>0.0</G>
+          <B>0.0</B>
+        </Color3>
+        <float name="Transparency">0</float>
+        <bool name="CastShadow">true</bool>
+      </Properties>
+      <Item class="Weld" referent="RBX451">
+        <Properties>
+          <string name="Name">ScabbardWeld</string>
+          <Ref name="Part0">RBX128</Ref>
+          <Ref name="Part1">RBX436</Ref>
+          <CoordinateFrame name="C0">1, 0, 0, 0, 1, 0, 0, 0, 1, -0.75, 0.3, 0.45</CoordinateFrame>
+          <CoordinateFrame name="C1">1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0</CoordinateFrame>
+        </Properties>
+      </Item>
+    </Item>
+    <Item class="Part" referent="RBX458">
+      <Properties>
+        <string name="Name">KyokaBlade</string>
+        <bool name="Anchored">false</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CanQuery">false</bool>
+        <CoordinateFrame name="CFrame">1, 0, 0, 0, 1, 0, 0, 0, 1, 1.85, 4.2, -0.1</CoordinateFrame>
+        <Vector3 name="Size">0.12, 2.6, 0.12</Vector3>
+        <Color3 name="Color3">
+          <R>1.0</R>
+          <G>1.0</G>
+          <B>1.0</B>
+        </Color3>
+        <float name="Transparency">0</float>
+        <bool name="CastShadow">true</bool>
+      </Properties>
+      <Item class="Weld" referent="RBX473">
+        <Properties>
+          <string name="Name">BladeWeld</string>
+          <Ref name="Part0">RBX173</Ref>
+          <Ref name="Part1">RBX458</Ref>
+          <CoordinateFrame name="C0">1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.85, -0.15</CoordinateFrame>
+          <CoordinateFrame name="C1">1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0</CoordinateFrame>
+        </Properties>
+      </Item>
+    </Item>
+    <Item class="Part" referent="RBX480">
+      <Properties>
+        <string name="Name">SwordHandle</string>
+        <bool name="Anchored">false</bool>
+        <bool name="CanCollide">false</bool>
+        <bool name="CanTouch">false</bool>
+        <bool name="CanQuery">false</bool>
+        <CoordinateFrame name="CFrame">1, 0, 0, 0, 1, 0, 0, 0, 1, 1.85, 2.55, -0.1</CoordinateFrame>
+        <Vector3 name="Size">0.16, 0.65, 0.16</Vector3>
+        <Color3 name="Color3">
+          <R>0.5019607843137255</R>
+          <G>0.0</G>
+          <B>0.5019607843137255</B>
+        </Color3>
+        <float name="Transparency">0</float>
+        <bool name="CastShadow">true</bool>
+      </Properties>
+      <Item class="Weld" referent="RBX495">
+        <Properties>
+          <string name="Name">HandleWeld</string>
+          <Ref name="Part0">RBX173</Ref>
+          <Ref name="Part1">RBX480</Ref>
+          <CoordinateFrame name="C0">1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.8, -0.15</CoordinateFrame>
+          <CoordinateFrame name="C1">1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0</CoordinateFrame>
+        </Properties>
+      </Item>
+    </Item>
+    <Item class="Folder" referent="RBX503">
+      <Properties>
+        <string name="Name">Remotes</string>
+      </Properties>
+      <Item class="RemoteEvent" referent="RBX506">
+        <Properties>
+          <string name="Name">UseAbility</string>
+        </Properties>
+      </Item>
+    </Item>
+    <Item class="Script" referent="RBX509">
+      <Properties>
+        <string name="Name">AizenAbilityServer</string>
+        <ProtectedString name="Source">-- AIZEN: server-side ability controller. Keep this Script inside AizenCharacter.
+local character = script.Parent
+local remote = character:WaitForChild("Remotes"):WaitForChild("UseAbility")
+local Players = game:GetService("Players")
+local Debris = game:GetService("Debris")
+local cooldowns = {}
+local abilities = {
+    FlashStep = {cd=4, range=24}, BlackCoffin={cd=12, range=18, damage=35}, KyokaSuisugetsu={cd=18, range=22, damage=24}, Hado90={cd=30, range=28, damage=65}
+}
+local function effectSphere(pos, color, size, duration)
+    local p=Instance.new("Part"); p.Shape=Enum.PartType.Ball; p.Anchored=true; p.CanCollide=false; p.Material=Enum.Material.Neon; p.Color=color; p.Size=Vector3.new(size,size,size); p.CFrame=CFrame.new(pos); p.Transparency=.2; p.Parent=workspace
+    game:GetService("TweenService"):Create(p,TweenInfo.new(duration),{Size=p.Size*2.5,Transparency=1}):Play(); Debris:AddItem(p,duration+.1)
+end
+local function targetHumanoids(center, radius, damage)
+    local hit={}
+    for _,obj in ipairs(workspace:GetDescendants()) do
+        if obj:IsA("Humanoid") and obj.Health&gt;0 and obj.Parent~=character then
+            local hrp=obj.Parent:FindFirstChild("HumanoidRootPart")
+            if hrp and (hrp.Position-center).Magnitude&lt;=radius and not hit[obj] then hit[obj]=true; obj:TakeDamage(damage) end
+        end
+    end
+end
+remote.OnServerEvent:Connect(function(player, ability)
+    if typeof(ability)~="string" or not abilities[ability] then return end
+    if not character:IsDescendantOf(workspace) then return end
+    local owner=Players:GetPlayerFromCharacter(character)
+    if owner and owner~=player then return end
+    local hum=character:FindFirstChildOfClass("Humanoid"); local root=character:FindFirstChild("HumanoidRootPart")
+    if not hum or hum.Health&lt;=0 or not root then return end
+    cooldowns[player]=cooldowns[player] or {}
+    local now=os.clock(); local data=abilities[ability]
+    if cooldowns[player][ability] and now-cooldowns[player][ability]&lt;data.cd then return end
+    cooldowns[player][ability]=now
+    if ability=="FlashStep" then
+        local direction=root.CFrame.LookVector; root.CFrame=root.CFrame+direction*data.range
+        effectSphere(root.Position,Color3.fromRGB(180,80,255),3,.35)
+    elseif ability=="BlackCoffin" then
+        local pos=root.Position+root.CFrame.LookVector*10; effectSphere(pos,Color3.fromRGB(90,30,160),7,1.2); targetHumanoids(pos, data.range, data.damage)
+    elseif ability=="KyokaSuisugetsu" then
+        local pos=root.Position+root.CFrame.LookVector*12; effectSphere(pos,Color3.fromRGB(170,110,255),9,1); targetHumanoids(pos,data.range,data.damage)
+    elseif ability=="Hado90" then
+        local pos=root.Position+root.CFrame.LookVector*16; effectSphere(pos,Color3.fromRGB(35,0,65),12,1.8); targetHumanoids(pos,data.range,data.damage)
+    end
+end)
+Players.PlayerRemoving:Connect(function(p) cooldowns[p]=nil end)
+</ProtectedString>
+      </Properties>
+    </Item>
+    <Item class="LocalScript" referent="RBX513">
+      <Properties>
+        <string name="Name">AizenMovesClient</string>
+        <ProtectedString name="Source">-- Move this LocalScript to StarterPlayer &gt; StarterPlayerScripts after inserting the model.
+-- Controls: Z Flash Step, X Black Coffin, C Kyoka Suigetsu, V Hado 90.
+local Players=game:GetService("Players")
+local UIS=game:GetService("UserInputService")
+local player=Players.LocalPlayer
+local function getRemote()
+    local char=workspace:FindFirstChild("AizenCharacter") or player.Character
+    if not char then return nil end
+    local folder=char:FindFirstChild("Remotes")
+    return folder and folder:FindFirstChild("UseAbility")
+end
+local gui=Instance.new("ScreenGui"); gui.Name="AizenMovesGUI"; gui.ResetOnSpawn=false; gui.Parent=player:WaitForChild("PlayerGui")
+local frame=Instance.new("Frame",gui); frame.Name="Moves"; frame.AnchorPoint=Vector2.new(1,1); frame.Position=UDim2.new(1,-18,1,-25); frame.Size=UDim2.fromOffset(205,190); frame.BackgroundColor3=Color3.fromRGB(20,12,35); frame.BackgroundTransparency=.12
+Instance.new("UICorner",frame).CornerRadius=UDim.new(0,14)
+local stroke=Instance.new("UIStroke",frame); stroke.Color=Color3.fromRGB(170,90,255); stroke.Thickness=2
+local title=Instance.new("TextLabel",frame); title.Size=UDim2.new(1,0,0,30); title.BackgroundTransparency=1; title.Text="AIZEN • MOVES"; title.TextColor3=Color3.fromRGB(220,190,255); title.Font=Enum.Font.GothamBold; title.TextSize=15
+local moves={{"Z","Flash Step","FlashStep"},{"X","Black Coffin","BlackCoffin"},{"C","Kyoka Suigetsu","KyokaSuisugetsu"},{"V","Hado 90","Hado90"}}
+local buttons={}
+local function use(name)
+    local r=getRemote(); if r then r:FireServer(name) end
+end
+for i,m in ipairs(moves) do
+    local b=Instance.new("TextButton",frame); b.Size=UDim2.new(1,-16,0,32); b.Position=UDim2.fromOffset(8,32+(i-1)*37); b.BackgroundColor3=Color3.fromRGB(65,35,100); b.Text=m[1].."  •  "..m[2]; b.TextColor3=Color3.new(1,1,1); b.Font=Enum.Font.GothamSemibold; b.TextSize=13; Instance.new("UICorner",b).CornerRadius=UDim.new(0,8); b.Activated:Connect(function() use(m[3]) end); buttons[m[1]]=m[3]
+end
+UIS.InputBegan:Connect(function(input,processed)
+    if processed then return end
+    if input.KeyCode==Enum.KeyCode.Z then use("FlashStep") elseif input.KeyCode==Enum.KeyCode.X then use("BlackCoffin") elseif input.KeyCode==Enum.KeyCode.C then use("KyokaSuisugetsu") elseif input.KeyCode==Enum.KeyCode.V then use("Hado90") end
+end)
+</ProtectedString>
+      </Properties>
+    </Item>
+  </Item>
+</roblox>
